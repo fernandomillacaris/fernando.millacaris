@@ -1,0 +1,23 @@
+
+void setup() {
+  // put your setup code here, to run once:
+ pinMode(11, OUTPUT);
+ pinMode(10, OUTPUT);
+}
+
+  // put your main code here, to run repeatedly:
+
+
+// the loop function runs over and over again forever
+void loop() {
+  for (int i = 0; i<= 0; i++) {
+  digitalWrite(11, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100*i);                       // wait for a second
+  digitalWrite(11, LOW);    // turn the LED off by making the voltage LOW
+  delay(100*i);                       // wait for a second
+  digitalWrite(10, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100*i);                       // wait for a second
+  digitalWrite(10, LOW);    // turn the LED off by making the voltage LOW
+  delay(100*i);          
+}
+}
